@@ -1,0 +1,109 @@
+    1  apt-get install git
+    2  sudo
+    3  sudo -h
+    4  sudo -U
+    5  sudo - U
+    6  sudo -- U
+    7  [200~sudo rm /var/lib/dpkg/lock-frontend
+    8  ~sudo rm /var/lib/dpkg/lock-frontend
+    9  sudo rm /var/lib/dpkg/lock-frontend
+   10  sudo -- u thami
+   11  su - thami
+   12  su - vboxuser
+   13  getent passwd
+   14  su - vboxadd
+   15  cd /media/cdrom
+   16  sudo sh ./VBoxLinuxAdditions.run
+   17  sudo apt-get update
+   18  sudo visudo
+   19  su - vboxuser
+   20  git init
+   21  git branch -m main
+   22  git status
+   23  touch README.md
+   24  git status
+   25  git log
+   26  git add .
+   27  git status
+   28  git commit -m 'initial commit'
+   29  git config --global --edit
+   30  git commit --amend --reset-author
+   31  git status
+   32  git log
+   33  nano README.md
+   34  cat README.md
+   35  git status
+   36  git commit -m 'second commit'
+   37  nano README.md
+   38  git status
+   39  git commit -m 'third commit'
+   40  nano README.md
+   41  git status
+   42  git log
+   43  git add .
+   44  git commit -m 'second commit'
+   45  nano README.md
+   46  git log
+   47  git add .
+   48  git commit -m 'third commit'
+   49  git log
+   50  git config --global --edit
+   51  git commit --amend --reset-author
+   52  git log
+   53  nano README.md
+   54  git init
+   55  git branch -m main
+   56  touch README.md
+   57  git log
+   58  git add .
+   59  git commit -m 'initial commit'
+   60  git log
+   61  nano README.md
+   62  git add .
+   63  git commit -m 'second commit'
+   64  git log
+   65  nano README.md
+   66  git add .
+   67  git commit -m 'third commit'
+   68  git log
+   69  git checkout 17a2c29510097adbd022fc28e01d0a3aa676c07f
+   70  git checkout
+   71  17a2c29510097adbd022fc28e01d0a3aa676c07f
+   72  git checkout 17a2c29510097adbd022fc28e01d0a3aa676c07f
+   73  cat README.md
+   74  git checkout main
+   75  git branch
+   76  git branch milkshake-flavours
+   77  git branch
+   78  git checkout milkshake-flavours
+   79  git branch
+   80  nano milkshakes.md
+   81  git status
+   82  git add .
+   83  git commit -m 'added initial flavours'
+   84  git log
+   85  git checkout main
+   86  git log
+   87  git branch history
+   88  git checkout history
+   89  git log
+   90  git checkout milkshake-flavours
+   91  git log
+   92  nano milkshakes.md
+   93  git add .
+   94  git commit -m 'random readme changes'
+   95  git log
+   96  git checkout history
+   97  cat README.md
+   98  rm README.md
+   99  git log
+  100  git status
+  101  echo 'booya' > README.md
+  102  git status
+  103  git add .
+  104  git commit -m 'rewrote readme'
+  105  git status
+  106  ls
+  107  rm README.md
+  108  git status
+  109  history > history.txt
